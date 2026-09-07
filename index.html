@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wael Beldi | Fullstack JavaScript Instructor</title>
+</head>
+<body bgcolor="#f4f1ea" text="#263238" link="#0b5d5e" vlink="#6b3f2a" alink="#d97706">
+  <!-- Site navigation -->
+  <header id="home">
+    <hgroup>
+      <h1>Wael Beldi</h1>
+      <p>Fullstack JavaScript instructor</p>
+    </hgroup>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Welcome section -->
+    <section aria-labelledby="welcome-title">
+      <p><strong>FULLSTACK JAVASCRIPT EDUCATION</strong></p>
+      <h2 id="welcome-title">Learn. Build. Grow.</h2>
+      <p>I help aspiring developers master JavaScript and build complete web applications from front end to back end.</p>
+      <p><a href="#work"><strong>Explore my teaching work &rarr;</strong></a></p>
+      <figure>
+        <img src="assets/profile.jpg" alt="Profile picture of Wael Beldi" width="300">
+        <figcaption>Wael Beldi, Fullstack JavaScript instructor.</figcaption>
+      </figure>
+    </section>
+
+    <!-- About section -->
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About Wael</h2>
+      <p>I am Wael Beldi, a Fullstack JavaScript instructor passionate about helping people become confident developers.</p>
+      <p>My teaching combines clear explanations, practical projects, and hands-on support. I guide learners through the tools and habits they need to create reliable, modern web applications.</p>
+      <ul>
+        <li>JavaScript, React, and front-end development</li>
+        <li>Node.js, Express, APIs, and back-end development</li>
+        <li>Databases, Git, testing, and deployment</li>
+      </ul>
+    </section>
+
+    <!-- Work section with a project table and HTML5 media -->
+    <section id="work" aria-labelledby="work-title">
+      <h2 id="work-title">Teaching and projects</h2>
+      <p>A few areas where I help learners turn JavaScript concepts into working applications.</p>
+      <ul>
+        <li><strong>JavaScript Foundations:</strong> Programming fundamentals for beginners.</li>
+        <li><strong>React Applications:</strong> Components and state for intermediate learners.</li>
+        <li><strong>Fullstack Project Lab:</strong> Node.js and APIs for advanced learners.</li>
+      </ul>
+      <figure>
+        <video controls width="560" preload="metadata">
+          <source src="assets/Nabeul Hackerspace.mp4" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
+        <figcaption>Workspace video from Nabeul Hackerspace.</figcaption>
+      </figure>
+      <p>Listen while you explore my teaching work:</p>
+      <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support embedded audio.
+      </audio>
+      <figure>
+        <img src="assets/Nabeul Hackerspace.png" alt="Wael Beldi teaching a session with students at Nabeul Hackerspace" width="560">
+        <figcaption>A teaching session with my students at Nabeul Hackerspace.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Resume section -->
+    <section id="resume" aria-labelledby="resume-title">
+      <h2 id="resume-title">Professional profile</h2>
+      <p><strong>Teaching experience, technical focus, and learner support.</strong></p>
+      <p><a href="assets/CV_Wael_Beldi.pdf" download>Download my resume (PDF)</a></p>
+      <dl>
+        <dt><strong>Fullstack JavaScript Instructor</strong></dt>
+        <dd>Teach JavaScript, React, Node.js, Express, APIs, databases, and deployment through practical projects.</dd>
+        <dt><strong>Developer Mentoring</strong></dt>
+        <dd>Support learners as they debug applications, improve their Git workflow, and prepare for professional development teams.</dd>
+        <dt><strong>Technical Focus</strong></dt>
+        <dd>Build accessible, maintainable web applications with modern JavaScript tools and fullstack architecture.</dd>
+      </dl>
+    </section>
+
+    <!-- Contact section using a semantic HTML form -->
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Let's learn together</h2>
+      <p>Interested in fullstack JavaScript training, mentoring, or a developer workshop? Send me a note.</p>
+      <address>
+        <a href="mailto:waelbeldi1990@gmail.com">waelbeldi1990@gmail.com</a><br>
+        Nabeul, Tunisia
+      </address>
+      <form action="mailto:waelbeldi1990@gmail.com" method="post" enctype="text/plain">
+              <fieldset>
+                <legend><strong>Contact form</strong></legend>
+                <p>
+                  <label for="name">Name</label><br>
+                  <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                  <label for="email">Email</label><br>
+                  <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                  <label for="project-type">Project type</label><br>
+                  <select id="project-type" name="project-type">
+                    <option value="website">Website</option>
+                    <option value="product">Digital product</option>
+                    <option value="brand">Brand identity</option>
+                    <option value="other">Something else</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="message">Message</label><br>
+                  <textarea id="message" name="message" rows="6" cols="42" required></textarea>
+                </p>
+                <button type="submit">Send message</button>
+                <button type="reset">Clear form</button>
+              </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <!-- Page footer -->
+  <footer>
+    <p>&copy; 2026 Wael Beldi</p>
+    <p><a href="#home">Back to top &uarr;</a></p>
+  </footer>
+</body>
+</html>
